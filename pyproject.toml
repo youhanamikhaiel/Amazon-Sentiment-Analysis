@@ -1,0 +1,21 @@
+[project]
+name = "amazon-sentiment-analysis"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Youhana Mikhaiel",email = "youhana.mikhaiel1@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+pylint = "^3.3.4"
+
